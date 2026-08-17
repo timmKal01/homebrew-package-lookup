@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Homebrew Package Lookup",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Package records",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

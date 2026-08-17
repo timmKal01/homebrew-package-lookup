@@ -1,0 +1,23 @@
+{
+    "title": "Homebrew Package Lookup Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "packages": {
+            "title": "Packages",
+            "type": "array",
+            "editor": "stringList",
+            "description": "One or more Homebrew names to look up, e.g. \"wget\" or \"visual-studio-code\". Use the exact formula/cask token (lowercase, hyphenated), not the display name."
+        },
+        "packageType": {
+            "title": "Package type",
+            "type": "string",
+            "editor": "select",
+            "description": "\"formula\" is a command-line package (brew install), \"cask\" is a macOS GUI app (brew install --cask). All packages in one run must be the same type.",
+            "enum": ["formula", "cask"],
+            "enumTitles": ["Formula (CLI package)", "Cask (macOS app)"],
+            "default": "formula"
+        }
+    },
+    "required": ["packages"]
+}

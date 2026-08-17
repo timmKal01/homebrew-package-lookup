@@ -1,0 +1,15 @@
+{
+    "name": "homebrew-package-lookup",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Look up Homebrew formula/cask version, dependencies, deprecation status, and install stats via the official formulae.brew.sh API.",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "apify": "^3.2.6"
+    },
+    "scripts": {
+        "start": "node src/main.js"
+    }
+}
