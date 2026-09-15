@@ -7,7 +7,9 @@
             "title": "Packages",
             "type": "array",
             "editor": "stringList",
-            "description": "One or more Homebrew names to look up, e.g. \"wget\" or \"visual-studio-code\". Use the exact formula/cask token (lowercase, hyphenated), not the display name."
+            "description": "One or more Homebrew names to look up, e.g. \"wget\" or \"visual-studio-code\". Use the exact formula/cask token (lowercase, hyphenated), not the display name.",
+            "prefill": ["wget"],
+            "default": ["wget"]
         },
         "packageType": {
             "title": "Package type",
