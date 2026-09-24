@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "homebrew-package-lookup",
-    "title": "Homebrew Package Lookup",
+    "title": "Homebrew Package Lookup: Versions & Installs",
     "description": "Look up current version, dependencies, deprecation/disable status, and 30/90/365-day install counts for any Homebrew formula or cask via the official formulae.brew.sh API. For DevOps and tooling teams tracking package health and adoption.",
     "version": "0.1",
     "meta": {
