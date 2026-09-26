@@ -1,0 +1,73 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "name",
+                    "version",
+                    "description",
+                    "license",
+                    "installs30d",
+                    "installs90d",
+                    "installs365d",
+                    "dependencies",
+                    "deprecated",
+                    "homepage",
+                    "tap"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "name": {
+                        "label": "Name",
+                        "format": "text"
+                    },
+                    "version": {
+                        "label": "Version",
+                        "format": "text"
+                    },
+                    "description": {
+                        "label": "Description",
+                        "format": "text"
+                    },
+                    "license": {
+                        "label": "License",
+                        "format": "text"
+                    },
+                    "installs30d": {
+                        "label": "Installs30d",
+                        "format": "number"
+                    },
+                    "installs90d": {
+                        "label": "Installs90d",
+                        "format": "number"
+                    },
+                    "installs365d": {
+                        "label": "Installs365d",
+                        "format": "number"
+                    },
+                    "dependencies": {
+                        "label": "Dependencies",
+                        "format": "array"
+                    },
+                    "deprecated": {
+                        "label": "Deprecated",
+                        "format": "boolean"
+                    },
+                    "homepage": {
+                        "label": "Homepage",
+                        "format": "link"
+                    },
+                    "tap": {
+                        "label": "Tap",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
