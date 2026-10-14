@@ -67,5 +67,5 @@ charge whether you request 1 package or 20.
 
 ## Related products
 
-- [npm Package Tracker](https://github.com/timmKal01/npm-package-tracker) — release/deprecation events for npm packages
-- [Docker Hub Image Tracker](https://github.com/timmKal01/docker-hub-image-tracker) — new/updated tags for container images
+- [npm Package Update Tracker](https://apify.com/m_ctim/npm-package-tracker): release/deprecation events for npm packages
+- [Docker Hub Tag Tracker](https://apify.com/m_ctim/docker-hub-image-tracker): new/updated tags for container images
